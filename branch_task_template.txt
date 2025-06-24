@@ -10,6 +10,8 @@ Your task:
 2. Add a new note to the file below like I have
 
 3. Commit and push using these 3 commands
+    **Note: Make sure to Ctrl + S to save the file in VSCode before attempting to add
+
     git add . 
     
     use the period for all staging, can also specify files using their names
@@ -26,6 +28,9 @@ Your task:
 
 4. Go to GitHub and open a pull request (PR)
 
+
+**Note: Do not merge blindly, always make sure to go through the changes 
+        to make sure that we aren't losing functionality
 5. Merge it into main after reviewing
 
 Hank Jacoby loves GitHub
