@@ -70,3 +70,4 @@ Follow the steps in the branch_task_template.txt to complete this learning task.
 
 ### 4. Complete the steps in merge_conflict.txt
 
+This third exercise is another building block of using GitHub. Is
