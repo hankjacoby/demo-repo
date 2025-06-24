@@ -1,17 +1,31 @@
 Your task:
 
 1. Create a new branch:
-    ```bash
+    
     git checkout -b your-name-branch
 
-2. Add a new note to the file
+    checkout - to switch to a new branch
+    -b (flag) - makes a new branch
+
+2. Add a new note to the file below like I have
 
 3. Commit and push using these 3 commands
-    ```bash
-    git add .
+    git add . 
+    
+    use the period for all staging, can also specify files using their names
+    add - adds the file(s) changed as staged changes (ready to commit)
+
     git commit -m "Added idea by [Your name]"
-    git push -u origin your-name-branch
+
+    commit - saves the file changes to be pushed
+    -m (flag) - specifies the message to be used for the push request
+    
+    git push origin your-name-branch
+
+    push - pushes the staged changes to the group's repository for all to see
 
 4. Go to GitHub and open a pull request (PR)
 
 5. Merge it into main after reviewing
+
+Hank Jacoby loves GitHub
