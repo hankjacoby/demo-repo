@@ -42,14 +42,5 @@ MERGE & RESOLVE
 9. Return to the pull request and try to merge.
     > You should see a merge conflict!
 
-10. Now there are 2 ways to solve the issue, on the website or locally
-
-If you elect to do it in the website, the instructions are on there
-
-If solving locally, run the following commands;
-    > git checkout your-name-conflict
-    > git merge main
-
-Now open the file in VSCode and resolve the conflict manually
-
-Save, add, commit, and push again
+10. Now there are 2 ways to solve the issue, I recommend using the website
+    because the instructions are clearer there

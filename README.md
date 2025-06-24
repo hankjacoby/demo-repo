@@ -48,8 +48,7 @@ You’ll learn to:
   Make commits  
   Push and pull  
   Create and merge branches  
-  Resolve merge conflicts  
-  Handle push errors  
+  Resolve merge conflicts   
 
 Follow each step below:
 
@@ -59,9 +58,15 @@ Explanation here
 
 ### 2. Add yourself to team.txt
 
-This first exercise is the first building block of using GitHub. Follow the steps in the team.txt file
-to complete the first learning task.
+This first exercise is the first building block of using GitHub. This exersice teaches
+you how to edit files and publish those changes safely. 
+Follow the steps in the team.txt file to complete this learning task.
 
-### 3. Complete the steps in 
+### 3. Complete the steps in branch_task_template.txt
 
+This second exercise is another building block of using GitHub. This exercise teaches
+you how to make branches, edit branches, and merge the changes back into main safely.
+Follow the steps in the branch_task_template.txt to complete this learning task.
+
+### 4. Complete the steps in merge_conflict.txt
 
