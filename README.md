@@ -4,17 +4,60 @@ Welcome to our Git learning environment! This guide will help you understand how
 
 ---
 
-## 📁 Repositories Overview
+## Repositories Overview
 
 - **demo-repo (sandbox):** Practice Git commands, make mistakes, and learn safely.
 - **(unsure of name rn):** Our real project. All meaningful contributions will go here once you're comfortable.
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Install Git
-- **Windows:** [Download Git for Windows](https://git-scm.com/download/win)
-- **Mac:** Install Git via [Homebrew](https://brew.sh):  
-  ```bash
-  brew install git
+The link below should guide you on how to download Git on your computer if you need to, no matter the OS.
+[Link Here](https://www.atlassian.com/git/tutorials/install-git)
+
+### 2. Sign up in GitHub
+
+If you do not already have a GitHub account, please create one. Purdue or IU emails should allow for
+better resources, however projects will be lost when
+students no longer have access to those accounts if
+they are not backed up with another email address.
+
+### 3. Download VSCode (optional)
+
+Downloading VSCode or any other IDE is not required,
+you could technically only use the website or VIM, 
+but I'd recommend downloading an IDE and connecting
+your GitHub account to that IDE, for debugging and
+linter purposes. This tutorial will also be written 
+mostly for people using VSCode instead of another 
+IDE or the HTTPS version.
+
+### Maybe more to be added later
+
+## Git Training Sandbox
+
+Welcome to our dummy repository for learning Git and GitHub safely!
+
+You’ll learn to:
+  Clone a repo  
+  Make commits  
+  Push and pull  
+  Create and merge branches  
+  Resolve merge conflicts  
+  Handle push errors  
+
+Follow each step below:
+
+### 1. Clone the Repo
+
+Explanation here
+
+### 2. Add yourself to team.txt
+
+This first exercise is the first building block of using GitHub. Run these commands in the VSCode terminal to edit the file and add your name to the bottom line.
+
+//Procedure to follow
+
+
