@@ -94,3 +94,4 @@ git branch -D [name of branch] - force deletes a branch even if its contents are
 git diff [other branch] - shows all the differences in each file between the 2 branches  
 git checkout [name of branch] - switches to that branch  
 git branch - shows which branch you are currently working on  
+git push origin --delete [branch name] - once the branch is deleted this will remove it from the UI
