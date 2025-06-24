@@ -12,7 +12,7 @@ Steps:
 3. In this file, change the line below to something new.
 
     > Original sentence:  
-    > "This line will be changed to create a conflict."
+    > "This line will be changed again in main to create a conflict."
 
 4. Save, then commit and push:
     git add conflict-demo.txt
