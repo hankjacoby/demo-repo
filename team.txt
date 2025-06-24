@@ -1,0 +1,5 @@
+To practice the process of pushing code to GitHub, try
+adding your name below using the website or the terminal from
+your computer or VSCode
+
+Hank Jacoby
