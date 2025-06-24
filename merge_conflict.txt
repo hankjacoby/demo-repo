@@ -12,10 +12,10 @@ Steps:
 3. In this file, change the line below to something new.
 
     > Original sentence:  
-    > "This line will be changed again in main to create a conflict."
+    > "This sentence has been changed again in main to create a conflict."
 
 4. Save, then commit and push:
-    git add conflict-demo.txt
+    git add .
     git commit -m "Edit line for conflict practice"
     git push origin your-name-conflict
 
@@ -29,7 +29,7 @@ STOP! Before Merging...
     git checkout main
 
 7. Edit the SAME line to something DIFFERENT, then save and commit:
-    git add merge_conflixt.txt
+    git add merge_conflict.txt
     git commit -m "Change same line on main"
 
 8. Pull just in case:
