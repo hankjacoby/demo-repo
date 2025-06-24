@@ -17,6 +17,8 @@ Welcome to our Git learning environment! This guide will help you understand how
 The link below should guide you on how to download Git on your computer if you need to, no matter the OS.
 [Link Here](https://www.atlassian.com/git/tutorials/install-git)
 
+---
+
 ### 2. Sign up in GitHub
 
 If you do not already have a GitHub account, please create one. Purdue or IU emails should allow for
@@ -41,6 +43,7 @@ IDE or the HTTPS version.
 Welcome to our dummy repository for learning Git and GitHub safely!
 
 You’ll learn to:
+  
   Clone a repo  
   Make commits  
   Push and pull  
@@ -56,8 +59,9 @@ Explanation here
 
 ### 2. Add yourself to team.txt
 
-This first exercise is the first building block of using GitHub. Run these commands in the VSCode terminal to edit the file and add your name to the bottom line.
+This first exercise is the first building block of using GitHub. Follow the steps in the team.txt file
+to complete the first learning task.
 
-//Procedure to follow
+### 3. Complete the steps in 
 
 
