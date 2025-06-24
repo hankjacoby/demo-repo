@@ -54,7 +54,7 @@ Follow each step below:
 
 ### 1. Clone the Repo
 
-Run the commands below to 
+Run the commands below  
 
   > git clone https://github.com/hankjacoby/demo-repo  
   > cd demo-repo  
