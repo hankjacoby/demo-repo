@@ -1,0 +1,17 @@
+Your task:
+
+1. Create a new branch:
+    ```bash
+    git checkout -b your-name-branch
+
+2. Add a new note to the file
+
+3. Commit and push using these 3 commands
+    ```bash
+    git add .
+    git commit -m "Added idea by [Your name]"
+    git push -u origin your-name-branch
+
+4. Go to GitHub and open a pull request (PR)
+
+5. Merge it into main after reviewing
