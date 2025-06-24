@@ -39,8 +39,19 @@ STOP! Before Merging...
 MERGE & RESOLVE
 -----------------------------
 
-9. Return to the pull request and try to merge.
-    > You should see a merge conflict!
+9. Make sure you are back in main using git branch
 
-10. Now there are 2 ways to solve the issue, I recommend using the website
-    because the instructions are clearer there
+10. Use the command
+    git merge [name of other branch]
+
+11. Open the merge conflict resolver in VSCode
+
+12. Accept changes on each side as needed and complete the merge
+
+13. Check to make sure the feature branch can be deleted using
+
+git branch --merged
+
+If it appears in the list, it can be deleted
+
+Now the feature branch is able to be deleted

@@ -54,7 +54,15 @@ Follow each step below:
 
 ### 1. Clone the Repo
 
-Explanation here
+Run the commands below to 
+
+  > git clone https://github.com/hankjacoby/demo-repo
+  > cd demo-repo
+
+The first command clones the files to your machine, while
+the second one changes directories into the repository
+
+You can instead use the Command Palette in VS Code (Ctrl+Shift+P) and type Git: Clone, then paste the URL
 
 ### 2. Add yourself to team.txt
 
@@ -70,4 +78,19 @@ Follow the steps in the branch_task_template.txt to complete this learning task.
 
 ### 4. Complete the steps in merge_conflict.txt
 
-This third exercise is another building block of using GitHub. Is
+This third exercise is another building block of using GitHub. When a merge conflict inevitably
+occurs, this will teach you how to deal with them.
+Follow the steps in the merge_conflict.txt file.
+//Lwk still need to work out the kinks of this one
+//better before releasing to the general public
+
+## Useful Commands to Know
+
+ls - shows all contents of current directory
+cat - shows the contents of specified file
+pwd - prints the working directory
+cd - changes the directory being worked in
+vim - used as a different text-editor **use if comfortable
+git branch --merged - shows which branches have already been merged
+git branch -D [name of branch] - force deletes a branch even if its contents are not merged yet
+git diff [other branch] - shows all the differences in each file between the 2 branches

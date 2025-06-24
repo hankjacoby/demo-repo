@@ -5,7 +5,7 @@ Steps:
 
 1. Add your name to a list of names at the bottom of this file below the Steps
 
-2l Hit Ctrl + S to save the file in VSCode
+2. Hit Ctrl + S to save the file in VSCode
 
 3. Run these commands in the VSCode terminal
 
@@ -19,7 +19,7 @@ Steps:
 Useful Tip: 
 
 Add -u to the last command to set origin main as the upstream, meaning future push commands
-won't have to specify main as the location if thats intended
+won't have to specify main as the location if thats the intended path
 
 Using this tip, that last command would look like this:
 
