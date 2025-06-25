@@ -136,10 +136,19 @@ git add [file_name] - stages the changes of that file
 git add . - stages all changes  
 git commit -m "[message]" - commits changes with the message  
 git restore [file_name] - undo changes to an unstaged file  
+git reset [file_name] - undo changes to a staged file
+git reset HEAD~1 - undo last commit (soft reset)
 
-### Git Push and Pull
+### Git Push, Pull, and Merge
 
 git pull - download and merge changes  
 git push - add your changes to the remote repository  
 git fetch - downloads updates without merging  
-git push origin [branch_name] - pushes a branch to GitHub
+git push origin [branch_name] - pushes a branch to GitHub  
+git merge [branch_name] - merges branch_name with current branch  
+git merge --abort - abort a merge in progress  
+
+### Miscellaneous  
+
+whoami - prints the user  
+clear - clears the command-line interface  
