@@ -3,12 +3,7 @@
 Welcome to our Git learning environment! This guide will help you understand how to use Git and GitHub to contribute to our project smoothly and confidently.
 
 ---
-
-## Repositories Overview
-
 - **demo-repo (sandbox):** Practice Git commands, make mistakes, and learn safely.
-- **(unsure of name rn):** Our real project. All meaningful contributions will go here once you're comfortable.
-
 ---
 
 ## Setup Instructions
@@ -26,6 +21,8 @@ better resources, however projects will be lost when
 students no longer have access to those accounts if
 they are not backed up with another email address.
 
+---
+
 ### 3. Download VSCode (optional)
 
 Downloading VSCode or any other IDE is not required,
@@ -33,11 +30,10 @@ you could technically only use the website or VIM,
 but I'd recommend downloading an IDE and connecting
 your GitHub account to that IDE, for debugging and
 linter purposes. This tutorial will also be written 
-mostly for people using VSCode instead of another 
+for users using VSCode instead of another 
 IDE or the HTTPS version.
 
-### Maybe more to be added later
-
+---
 ## Git Training Sandbox
 
 Welcome to our dummy repository for learning Git and GitHub safely!
@@ -136,8 +132,9 @@ git add [file_name] - stages the changes of that file
 git add . - stages all changes  
 git commit -m "[message]" - commits changes with the message  
 git restore [file_name] - undo changes to an unstaged file  
-git reset [file_name] - undo changes to a staged file
-git reset HEAD~1 - undo last commit (soft reset)
+git reset [file_name] - undo changes to a staged file  
+git reset HEAD~1 - undo last commit (soft reset)  
+git reset --hard HEAD - undo all local changes  
 
 ### Git Push, Pull, and Merge
 
