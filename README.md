@@ -82,16 +82,64 @@ This third exercise is another building block of using GitHub. When a merge conf
 occurs, this will teach you how to deal with them.
 Follow the steps in the merge_conflict.txt file.
 
-## Useful Commands to Know
+## Useful Commands to Know  
+**Note: anything in square brackets [like_this] is an argument and should be replaced by you  
+
+### Directory Navigation  
 
 ls - shows all contents of current directory  
-cat - shows the contents of specified file as they appear on the website  
+ls -la - shows all contents (including hidden files and folders) of the current directory  
+cd [folder_name] - navigates into that folder  
+cd .. - navigates to parent directory (like a back button)  
+cd ~ - navigates to the home directory  
 pwd - prints the working directory  
-cd - changes the directory being worked in  
-vim - used as a different text-editor **use if comfortable  
-git branch --merged - shows which branches have already been merged  
-git branch -D [name of branch] - force deletes a branch even if its contents are not merged yet  
-git diff [other branch] - shows all the differences in each file between the 2 branches  
-git checkout [name of branch] - switches to that branch  
-git branch - shows which branch you are currently working on  
-git push origin --delete [branch name] - once the branch is deleted this will remove it from the UI
+cat [file_name] - prints the contents of the specified file
+
+### File Manipulation  
+
+mkdir [folder_name] - makes an empty directory with the specified name  
+touch [file_name] - makes an empty file with the specified name  
+rm [file_name] - deletes the specified file  
+mv [arg1] [arg2] - used to move a directory or file, or to rename a directory or file  
+cp [file_1] [file_2] - copy the contents of file_1 into file_2  
+less [file_name] - view the contents of a file with search and scroll  
+wc -l [file_name] - counts the number of lines in a file  
+echo "[message]" > [file_name] - replace the contents of file_name with message  
+echo "[message]" >> [file_name] - append message to the end of file_name  
+
+### Search and Compare
+
+grep [message] file - searches for message in file  
+diff [file_1] [file_2] - shows differences between file_1 and file_2  
+sort [file_name] - sorts the lines of file_name in alphabetical order  
+sort -n [file_name] - sorts the lines of file_name in numerical order  
+
+### Git Commands
+
+git status - shows stages, unstaged, and untracked files  
+git diff - shows differences between working directory and index  
+git diff --staged - shows differences between staged changes and last commit  
+git log - view full git history  
+git branch --merged - shows which branches have already been merged
+
+### Git Branching
+
+git branch - list local branches and specify current branch  
+git branch -d [branch_name] - deletes the branch if merged  
+git checkout [branch_name] - navigate to branch_name  
+git checkout -b [branch_name] - creates a new branch with specified name  
+git push origin --delete [branch_name] - deletes the branch from the website
+
+### Git Commiting
+
+git add [file_name] - stages the changes of that file  
+git add . - stages all changes  
+git commit -m "[message]" - commits changes with the message  
+git restore [file_name] - undo changes to an unstaged file  
+
+### Git Push and Pull
+
+git pull - download and merge changes  
+git push - add your changes to the remote repository  
+git fetch - downloads updates without merging  
+git push origin [branch_name] - pushes a branch to GitHub
