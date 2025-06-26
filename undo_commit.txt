@@ -55,8 +55,9 @@ Steps:
     Commit messages are useful to identify the right commit to return back to
 
 Continuing from here there are three ways to undo, which is why there will be three
-sets of instructions from here on out. The first way is safe, and the second two are
-only okay if nobody else is relying on your remote branch.
+sets of instructions from here on out. The first way is safe, the second is unsafe, 
+and the third is a shorthand that skips the hash values and can be done using either
+the first or second method.
 
 Option 1 (Safe) - using git revert
 
@@ -64,7 +65,8 @@ Option 1 (Safe) - using git revert
 
     > git revert [hash_value]
 
-12. This creates a new commit that undoes that change
+12. After dealing with the error in the merge conflict resolver,
+    this creates a new commit that undoes that change
 
 13. Push this new version
 
