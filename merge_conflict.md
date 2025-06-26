@@ -2,12 +2,12 @@ This task will help you experience what a Git merge conflict looks like — and 
 
 Steps:
 
-1. Make sure your local repo is up to date:
-    git checkout main
-    git pull
+1. Make sure your local repo is up to date:  
+    > git checkout main
+    > git pull  
 
 2. Create a new branch:
-    git checkout -b your-name-conflict
+    > git checkout -b your-name-conflict
 
 3. In this file, change the line below to something new.
 
@@ -15,9 +15,9 @@ Steps:
     > "This sentence has been changed again in main to create a conflict."
 
 4. Save, then commit and push:
-    git add .
-    git commit -m "Edit line for conflict practice"
-    git push origin your-name-conflict
+    > git add .
+    > git commit -m "Edit line for conflict practice"
+    > git push origin your-name-conflict
 
 5. Go to GitHub and open a pull request.
 
@@ -26,14 +26,14 @@ STOP! Before Merging...
 -----------------------------
 
 6. Now switch back to main:
-    git checkout main
+    > git checkout main
 
 7. Edit the SAME line to something DIFFERENT, then save and commit:
-    git add merge_conflict.txt
-    git commit -m "Change same line on main"
+    > git add merge_conflict.txt
+    > git commit -m "Change same line on main"
 
 8. Pull just in case:
-    git pull
+    > git pull
 
 -----------------------------
 MERGE & RESOLVE
@@ -42,7 +42,7 @@ MERGE & RESOLVE
 9. Make sure you are back in main using git branch
 
 10. Use the command
-    git merge [name of other branch]
+    > git merge [name of other branch]
 
 11. Open the merge conflict resolver in VSCode
 
@@ -50,7 +50,7 @@ MERGE & RESOLVE
 
 13. Check to make sure the feature branch can be deleted using
 
-git branch --merged
+    > git branch --merged
 
 If it appears in the list, it can be deleted
 
