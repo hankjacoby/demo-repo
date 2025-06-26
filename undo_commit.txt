@@ -106,5 +106,3 @@ this demonstration.
     > git push --force
 
 Hank never makes mistakes
-Oopsies Jank madd a mistake
-Hank never makes mistakes
