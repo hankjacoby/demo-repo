@@ -104,3 +104,5 @@ this demonstration.
 12. Then force the changes onto the repository
 
     > git push --force
+
+Hank never makes mistakes
