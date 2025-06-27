@@ -39,7 +39,7 @@ Steps:
 9. View the log to see the last few commits
     ```console
     git log
-    ``
+    ```
 10. Find the hash value of the mistaken commit
 
     Each entry here is in reverse chronological order
