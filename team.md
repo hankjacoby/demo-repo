@@ -1,5 +1,5 @@
-This exercise is the first step in learning how to use Git and GitHub
-At this point, the repository should be cloned and ready to work with
+This exercise is the first step in learning how to use Git and GitHub  
+At this point, the repository should be cloned and ready to work with  
 
 Steps: 
 
@@ -8,13 +8,20 @@ Steps:
 2. Hit Ctrl + S to save the file in VSCode
 
 3. Run these commands in the VSCode terminal
-
-    git add .   -> this stages all the changes made for commit
-    git commit -m "YOUR MESSAGE HERE"   -> this saves the changes ready to be added
-    git push origin main    -> pushes the changes to GitHub main branch for all to see
-
-4. Reload the GitHub page to make sure your changes are reflected on the website, or
-   use cat team.txt to see the version GitHub has
+    ```console
+    git add .
+    ```
+    This stages all the changes you've made to be committed later
+    ```console
+    git commit -m "YOUR MESSAGE HERE"
+    ```
+    This saves the changes ready to be added  
+   ```console
+    git push origin main
+    ```
+    Pushes the changes to the remote repository for all to see  
+5. Reload the GitHub page to make sure your changes are reflected on the website, or
+   use cat team.md to see the version GitHub has
 
 Useful Tip: 
 
@@ -22,9 +29,8 @@ Add -u to the last command to set origin main as the upstream, meaning future pu
 won't have to specify main as the location if thats the intended path
 
 Using this tip, that last command would look like this:
-
+```console
 git push -u origin main
+```
 
-
-
-Hank Jacoby
+Add name under here
