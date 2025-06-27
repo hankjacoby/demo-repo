@@ -51,7 +51,7 @@ Steps:
 
         [commit_message]
     ```
-    This is why commit messages are more important than originally let on
+    This is why commit messages are more important than originally let on  
     Commit messages are useful to identify the right commit to return back to
 
 Continuing from here there are three ways to undo, which is why there will be three
