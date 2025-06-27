@@ -8,9 +8,9 @@ You'll make three commits, push them, then undo the second one in two different 
 Steps: 
 
 1. Make sure you are on a new branch
-
+    ```console
     > git checkout -b undo_branch
-
+    ```
 2. Open undo_commit.txt and add a line at the bottom
 
 3. Stage and commit the new change
