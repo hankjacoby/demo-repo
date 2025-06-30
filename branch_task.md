@@ -1,3 +1,5 @@
+In this exercise, you will learn how to make new branches, and merge them back into the main branch  
+
 Your task:  
 
 1. Create a new branch:  
